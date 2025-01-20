@@ -47,9 +47,7 @@ Qi-Jun Ruan^a,b,1^, Hao Li^a,1,2^, Pei-Yuan Xiao^a,c,2^, Bo Li^d,2^, Hélène Mo
 
 ### Online access:
 
-Zenodo DOI: <https://doi.org/10.5281/zenodo.13762081>
-
-The files at the URL above will generate the results as found in the publication. The files hosted at <https://github.com/PeiyuanXiao/Lithic-data-Longtan-site> are the development versions and may have changed since the paper was published.
+The files at the URL above will generate the results as found in the publication. The files hosted at <https://github.com/PeiyuanXiao/Longtan_raw_data> are the development versions and may have changed since the paper was published.
 
 ### Maintainer of this repository:
 
@@ -69,4 +67,4 @@ Middle Paleolithic; fluvial terrace; early MIS 3; Late Pleistocene; hominins
 
 Data processing & analyzing: `readxl (>= 1.4.3)`,`tidyverse (>= 2.0.0)`,`forcats (>= 1.0.0)`, other statistical testing methods use the corresponding functions in the R base package
 
-Plots creating: `tidyverse (>= 2.0.0)`,`ggpmisc (>= 0.5.6)`,`cowplot (>= 1.1.3)`,`patchwork (>= 1.2.0)`,`ggtext (>= 0.1.2),plot3D``(>= 1.4.1)`
+Plots creating: `tidyverse (>= 2.0.0)`,`ggpmisc (>= 0.5.6)`,`cowplot (>= 1.1.3)`,`patchwork (>= 1.2.0)`,`ggtext (>= 0.1.2)`,`plot3D (>= 1.4.1)`
