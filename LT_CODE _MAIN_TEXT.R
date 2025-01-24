@@ -5,6 +5,7 @@ library("dplyr")
 library("tidyr")   
 library("ggplot2")
 library("cowplot")
+library("ggdist")
 
 # Import the raw data-----------------------------------------------------------
 qn_scraper <-  read_excel("Longtan_lithic_tools.xlsx", sheet = 1)
