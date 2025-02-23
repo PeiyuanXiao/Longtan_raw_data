@@ -1,9 +1,6 @@
 # Library R packages------------------------------------------------------------
 library("readxl")
-library("readr")
-library("dplyr")
-library("tidyr")   
-library("ggplot2")
+library("tidyverse")
 library("cowplot")
 library("ggdist")
 

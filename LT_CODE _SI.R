@@ -1,8 +1,6 @@
 # Library R packages------------------------------------------------------------
 library("readxl")
-library("dplyr")
-library("tidyr") 
-library("ggplot2")
+library("tidyverse")
 library("ggpmisc")
 library("ggtext")
 library("forcats")
@@ -973,17 +971,12 @@ Weather_rose <-
            color = "black", 
            width = 0.5,
            alpha = 0.6) +
-  theme_minimal() +
-  theme(axis.text.x = element_text(size = 14,
-                                   color = "black"),
+  scale_y_continuous(labels = scales::percent) +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 14, color = "black"),
+        axis.text.y = element_text(size = 14, color = "black"),
         axis.title.x = element_blank(),
-        axis.title.y = element_blank(),
-        panel.grid.major = element_line(color = "gray"), 
-        panel.grid.minor = element_line(color = "gray")) +
-  scale_y_continuous(
-    breaks = seq(0, 1, length.out = 6), 
-    labels = scales::percent_format(scale = 1) 
-  )
+        axis.title.y = element_blank())
 
 # Size distribution
 Size_df <- 

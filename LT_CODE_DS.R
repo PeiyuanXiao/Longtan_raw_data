@@ -1,7 +1,6 @@
 # Library R packages------------------------------------------------------------
 library("readxl")
-library("dplyr")
-library("tidyr")
+library("tidyverse")
 
 # Import the raw data-----------------------------------------------------------
 qn_scraper <-  read_excel("Longtan_lithic_tools.xlsx", sheet = 1) %>%

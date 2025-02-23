@@ -7,7 +7,7 @@ output: github_markdown
 
 # **Research Compendium for: "**Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia**"**
 
-Qi-Jun Ruan^a,b,1^, Hao Li^a,1,2^, Pei-Yuan Xiao^a,c,2^, Bo Li^d,2^, Hélène Monod^e,f^, Alexandra Sumner^g^, Ke-Liang Zhao^h^, Jian-Hui Liu^b^, Zhen-Xiu Jia^a^, Chun-Xin Wang^i^, An-Chuan Fan^i^, Marie-Hélène Moncel^j^, Ben Marwick^k^, Marco Peresani^l,m^, You-Ping Wang^n^, Fa-Hu Chen^a^, Davide Delpiano^l,2^
+Qi-Jun Ruan^a,b,1^, Hao Li^a,c,1,2^, Pei-Yuan Xiao^a,c,2^, Bo Li^d,2^, Hélène Monod^e,f^, Alexandra Sumner^g^, Ke-Liang Zhao^h^, Jian-Hui Liu^b^, Zhen-Xiu Jia^a^, Chun-Xin Wang^i^, An-Chuan Fan^i^, Marie-Hélène Moncel^j^, Ben Marwick^k^, Marco Peresani^l,m^, You-Ping Wang^n,o^, Fa-Hu Chen^a,c^, Davide Delpiano^l,2^
 
 ^*a*^*State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESER), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, 100101, China;*
 
@@ -35,7 +35,9 @@ Qi-Jun Ruan^a,b,1^, Hao Li^a,1,2^, Pei-Yuan Xiao^a,c,2^, Bo Li^d,2^, Hélène Mo
 
 ^*m*^*CNR-Institute of Environmental Geology and Geoengineering, Lab. of Palynology and Palaeoecology, Research Group on Vegetation, Climate and Human Stratigraphy, Milan, 20126, Italy;*
 
-^*n*^*School of Archaeology and Museology, Peking University, Beijing, 100871, China.*
+^*n*^*School of Archaeology and Museology, Peking University, Beijing, 100871, China;*
+
+^*o*^*Zhengzhou Municipal Institute of Cultural Relics and Archaeology, Zhengzhou, 450052, China.*
 
 ✉ Correspondence: Hao Li [lihao\@itpcas.ac.cn](mailto:lihao@itpcas.ac.cn)
 
@@ -67,4 +69,4 @@ Middle Paleolithic; fluvial terrace; early MIS 3; Late Pleistocene; hominins
 
 Data processing & analyzing: `readxl (>= 1.4.3)`,`tidyverse (>= 2.0.0)`,`forcats (>= 1.0.0)`, other statistical testing methods use the corresponding functions in the R base package
 
-Plots creating: `tidyverse (>= 2.0.0)`,`ggpmisc (>= 0.5.6)`,`cowplot (>= 1.1.3)`,`patchwork (>= 1.2.0)`,`ggtext (>= 0.1.2)`,`plot3D (>= 1.4.1)`
+Plots creating: `tidyverse (>= 2.0.0)`,`ggpmisc (>= 0.5.6)`,`ggdist (>= 3.3.2)`,`cowplot (>= 1.1.3)`,`ggtext (>= 0.1.2)`,`plot3D (>= 1.4.1)`
