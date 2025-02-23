@@ -7,7 +7,7 @@ output: github_markdown
 
 # **Research Compendium for: "**Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia**"**
 
-Qi-Jun Ruan^a,b,1^, Hao Li^a,c,1,2^, Pei-Yuan Xiao^a,c,2^, Bo Li^d,2^, Hélène Monod^e,f^, Alexandra Sumner^g^, Ke-Liang Zhao^h^, Jian-Hui Liu^b^, Zhen-Xiu Jia^a^, Chun-Xin Wang^i^, An-Chuan Fan^i^, Marie-Hélène Moncel^j^, Ben Marwick^k^, Marco Peresani^l,m^, You-Ping Wang^n,o^, Fa-Hu Chen^a,c^, Davide Delpiano^l,2^
+Qi-Jun Ruan^a,b†^, Hao Li^a,c†^✉, Pei-Yuan Xiao^a,c^✉, Bo Li^d^✉, Hélène Monod^e,f^, Alexandra Sumner^g^, Ke-Liang Zhao^h^, Jian-Hui Liu^b^, Zhen-Xiu Jia^a^, Chun-Xin Wang^i^, An-Chuan Fan^i^, Marie-Hélène Moncel^j^, Ben Marwick^k^, Marco Peresani^l,m^, You-Ping Wang^n,o^, Fa-Hu Chen^a,c^, Davide Delpiano^l^✉
 
 ^*a*^*State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESER), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, 100101, China;*
 
