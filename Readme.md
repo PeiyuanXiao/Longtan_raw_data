@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "Readme"
 author: "PeiyuanXiao"
@@ -6,142 +5,65 @@ date: "2024-09-14"
 output: github_markdown
 ---
 
-# **Research Compendium for: "**Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia**"**
+# Research Compendium for: "Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia"
 
-Qi-Jun Ruan^a,b†^, Hao Li^a,c†^✉, Pei-Yuan Xiao^a,c^✉, Bo Li^d^✉, Hélène Monod^e,f^, Alexandra Sumner^g^, Ke-Liang Zhao^h^, Jian-Hui Liu^b^, Zhen-Xiu Jia^a^, Chun-Xin Wang^i^, An-Chuan Fan^i^, Marie-Hélène Moncel^j^, Ben Marwick^k^, Marco Peresani^l,m^, You-Ping Wang^n,o^, Fa-Hu Chen^a,c^, Davide Delpiano^l^✉
+[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-^*a*^*State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESER), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, 100101, China;*
+This repository contains the data and code for our paper published in **PNAS**:
 
-^*b*^*Yunnan Provincial Institute of Cultural Relics and Archaeology, Kunming, 650118, China;*
+> **Ruan, Q. J., Li, H., Xiao, P. Y., Li, B., Monod, H., Sumner, A., ... & Delpiano, D. (2025). Quina lithic technology indicates diverse Late Pleistocene human dynamics in East Asia. *Proceedings of the National Academy of Sciences*, 122(14), e2418029122.**
 
-^*c*^*University of Chinese Academy of Sciences, Beijing, 101408, China;*
+------------------------------------------------------------------------
 
-^*d*^*Centre for Archaeological Science, School of Earth, Atmospheric and Life Sciences, University of Wollongong, Wollongong, NSW, 2522, Australia;*
+### 👥 Authors and Affiliations
 
-^*e*^*Universitat Rovira i Virgili, Department of History and Art History, Tarragona, Spain;*
+### 👥 Authors and Affiliations
 
-^*f*^*UMR7194, Natural History of Prehistoric Man, CNRS, Nomad team, Department of Man and Environment, National Museum of Natural History, Paris;*
+**Qi-Jun Ruan**<sup>a,b†</sup>, **Hao Li**<sup>a,c†</sup>✉, **Pei-Yuan Xiao**<sup>a,c</sup>✉, **Bo Li**<sup>d</sup>✉, **Hélène Monod**<sup>e,f</sup>, **Alexandra Sumner**<sup>g</sup>, **Ke-Liang Zhao**<sup>h</sup>, **Jian-Hui Liu**<sup>b</sup>, **Zhen-Xiu Jia**<sup>a</sup>, **Chun-Xin Wang**<sup>i</sup>, **An-Chuan Fan**<sup>i</sup>, **Marie-Hélène Moncel**<sup>j</sup>, **Ben Marwick**<sup>k</sup>, **Marco Peresani**<sup>l,m</sup>, **You-Ping Wang**<sup>n,o</sup>, **Fa-Hu Chen**<sup>a,c</sup>, **Davide Delpiano**<sup>l</sup>✉
 
-^*g*^*Department of Anthropology, DePaul University, Chicago, IL 60604, USA;*
+**Affiliations:**
 
-^*h*^*Institute of Vertebrate Paleontology and Paleoanthropology, Chinese Academy of Sciences, Beijing, 100044, China;*
+-   <sup>a</sup> *State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESER), Institute of Tibetan Plateau Research, CAS, Beijing, China.*
+-   <sup>b</sup> *Yunnan Provincial Institute of Cultural Relics and Archaeology, Kunming, China.*
+-   <sup>c</sup> *University of Chinese Academy of Sciences, Beijing, China.*
+-   <sup>d</sup> *Centre for Archaeological Science, University of Wollongong, NSW, Australia.*
+-   <sup>e</sup> *Universitat Rovira i Virgili, Department of History and Art History, Tarragona, Spain.*
+-   <sup>f</sup> *UMR7194, Natural History of Prehistoric Man, CNRS, National Museum of Natural History, Paris.*
+-   <sup>g</sup> *Department of Anthropology, DePaul University, Chicago, IL, USA.*
+-   <sup>h</sup> *Institute of Vertebrate Paleontology and Paleoanthropology, CAS, Beijing, China.*
+-   <sup>i</sup> *Department for the History of Science and Scientific Archaeology, USTC, Hefei, China.*
+-   <sup>j</sup> *UMR 7194 CNRS-National Museum of Natural History, Paris, France.*
+-   <sup>k</sup> *Department of Anthropology, University of Washington, Seattle, USA.*
+-   <sup>l</sup> *Department of Human Studies, Prehistoric and Anthropological Science Unit, University of Ferrara, Italy.*
+-   <sup>m</sup> *CNR-Institute of Environmental Geology and Geoengineering, Milan, Italy.*
+-   <sup>n</sup> *School of Archaeology and Museology, Peking University, Beijing, China.*
 
-^*i*^*Department for the History of Science and Scientific Archaeology, University of Science and Technology of China, Hefei, 230026, China;*
+**✉ Corresponding Authors:** \* Hao Li ([lihao\@itpcas.ac.cn](mailto:lihao@itpcas.ac.cn)) \* Pei-yuan Xiao ([xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)) \* Bo Li ([bli\@uow.edu.au](mailto:bli@uow.edu.au)) \* Davide Delpiano ([dlpdvd\@unife.it](mailto:dlpdvd@unife.it)
 
-^*j*^*UMR 7194 CNRS-National Museum of Natural History, Paris, France;*
+**Maintainers:** [Pei-yuan Xiao](mailto:xiaopeiyuan@itpcas.ac.cn) & [Ben Marwick](mailto:bmarwick@uw.edu)
 
-^*k*^*Department of Anthropology, University of Washington, Seattle, USA;*
+------------------------------------------------------------------------
 
-^*l*^*Department of Human Studies, Prehistoric and Anthropological Science Unit, University of Ferrara, Ferrara, 44121, Italy;*
-
-^*m*^*CNR-Institute of Environmental Geology and Geoengineering, Lab. of Palynology and Palaeoecology, Research Group on Vegetation, Climate and Human Stratigraphy, Milan, 20126, Italy;*
-
-^*n*^*School of Archaeology and Museology, Peking University, Beijing, 100871, China;*
-
-^*o*^*Zhengzhou Municipal Institute of Cultural Relics and Archaeology, Zhengzhou, 450052, China.*
-
-✉ Correspondence: Hao Li [lihao\@itpcas.ac.cn](mailto:lihao@itpcas.ac.cn)
-
-✉ Correspondence: Pei-yuan Xiao [xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)
-
-✉ Correspondence: Bo Li [bli\@uow.edu.au](mailto:bli@uow.edu.au)
-
-✉ Correspondence: Davide Delpiano [dlpdvd\@unife.it](mailto:dlpdvd@unife.it)
-
-### Online access:
-
-The files at the URL above will generate the results as found in the publication. The files hosted at <https://github.com/PeiyuanXiao/Longtan_raw_data> are the development versions and may have changed since the paper was published.
-
-### Maintainer of this repository:
-
-Pei-yuan Xiao [xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)
-
-Ben Marwick [bmarwick\@uw.edu](mailto:bmarwick@uw.edu)
-
-### Abstract:
+### 📝 Abstract
 
 The Late Pleistocene of Eurasia is key for understanding interactions between early modern humans and different types of archaic human groups. During this period, lithic technology shows more diversity and complexity, likely indicating flexible adaptative strategies. However, cultural variability as expressed by technological types remains vague in large parts of eastern Eurasia, like in China. Here we report a complete Quina technological system identified from the study of the Longtan site in Southwest China. This site has been securely dated to ca. 60–50 thousand years ago (ka), with compelling evidence of core exploitation, production of large and thick flakes, shaping and maintenance of scrapers exhibiting the whole Quina concept, typical of contemporary European Middle Paleolithic technologies developed by Neanderthal groups adapted to climatic oscillations during Marine Isotope Stage (MIS) 4 and early MIS 3. The finding of a Quina lithic assemblage in China not only demonstrates the existence of a Middle Paleolithic technology in the region, but also shows large-scale analogies with Neanderthal behaviors in western Europe. Longtan substantially extends the geographic distribution of this technical behavior in East Asia. Although its origin remains unclear, implications for Pleistocene hominin dispersal and adaptation to diverse ecological settings are considered. The Longtan lithic evidence also provides perspectives for understanding the cultural evolutionary situation before the large-scale arrivals of early modern humans in East Asia predating \~45 ka.
 
-### Keywords:
+### 🔑 Keywords
 
 Middle Paleolithic; fluvial terrace; early MIS 3; Late Pleistocene; hominins
 
-### R packages and their versions:
+------------------------------------------------------------------------
 
-Data processing & analyzing: `readxl (>= 1.4.3)`,`tidyverse (>= 2.0.0)`,`forcats (>= 1.0.0)`, other statistical testing methods use the corresponding functions in the R base package
+### 🚀 Data & Code Reproduction
 
-Plots creating: `tidyverse (>= 2.0.0)`,`ggpmisc (>= 0.5.6)`,`ggdist (>= 3.3.2)`,`cowplot (>= 1.1.3)`,`ggtext (>= 0.1.2)`,`plot3D (>= 1.4.1)`
-=======
----
-title: "Readme"
-author: "PeiyuanXiao"
-date: "2024-09-14"
-output: github_markdown
----
+The files hosted at <https://github.com/PeiyuanXiao/Longtan_raw_data> are the development versions. You can reproduce the analysis by following these steps:
 
-# **Research Compendium for: "**Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia**"**
+1.  Clone the repository: `git clone https://github.com/PeiyuanXiao/Longtan_raw_data.git`
+2.  Open `Lithic_Raw_Data_of_Longtan.Rproj` in RStudio.
+3.  The main scripts are:
+    -   `LT_CODE_MAIN_TEXT.R`: Main analysis and figures.
+    -   `LT_CODE_SI.R`: Supplementary analysis.
 
-Qi-Jun Ruan^a,b†^, Hao Li^a,c†^✉, Pei-Yuan Xiao^a,c^✉, Bo Li^d^✉, Hélène Monod^e,f^, Alexandra Sumner^g^, Ke-Liang Zhao^h^, Jian-Hui Liu^b^, Zhen-Xiu Jia^a^, Chun-Xin Wang^i^, An-Chuan Fan^i^, Marie-Hélène Moncel^j^, Ben Marwick^k^, Marco Peresani^l,m^, You-Ping Wang^n,o^, Fa-Hu Chen^a,c^, Davide Delpiano^l^✉
+### 💻 Computational Environment
 
-^*a*^*State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESER), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, 100101, China;*
-
-^*b*^*Yunnan Provincial Institute of Cultural Relics and Archaeology, Kunming, 650118, China;*
-
-^*c*^*University of Chinese Academy of Sciences, Beijing, 101408, China;*
-
-^*d*^*Centre for Archaeological Science, School of Earth, Atmospheric and Life Sciences, University of Wollongong, Wollongong, NSW, 2522, Australia;*
-
-^*e*^*Universitat Rovira i Virgili, Department of History and Art History, Tarragona, Spain;*
-
-^*f*^*UMR7194, Natural History of Prehistoric Man, CNRS, Nomad team, Department of Man and Environment, National Museum of Natural History, Paris;*
-
-^*g*^*Department of Anthropology, DePaul University, Chicago, IL 60604, USA;*
-
-^*h*^*Institute of Vertebrate Paleontology and Paleoanthropology, Chinese Academy of Sciences, Beijing, 100044, China;*
-
-^*i*^*Department for the History of Science and Scientific Archaeology, University of Science and Technology of China, Hefei, 230026, China;*
-
-^*j*^*UMR 7194 CNRS-National Museum of Natural History, Paris, France;*
-
-^*k*^*Department of Anthropology, University of Washington, Seattle, USA;*
-
-^*l*^*Department of Human Studies, Prehistoric and Anthropological Science Unit, University of Ferrara, Ferrara, 44121, Italy;*
-
-^*m*^*CNR-Institute of Environmental Geology and Geoengineering, Lab. of Palynology and Palaeoecology, Research Group on Vegetation, Climate and Human Stratigraphy, Milan, 20126, Italy;*
-
-^*n*^*School of Archaeology and Museology, Peking University, Beijing, 100871, China;*
-
-^*o*^*Zhengzhou Municipal Institute of Cultural Relics and Archaeology, Zhengzhou, 450052, China.*
-
-✉ Correspondence: Hao Li [lihao\@itpcas.ac.cn](mailto:lihao@itpcas.ac.cn)
-
-✉ Correspondence: Pei-yuan Xiao [xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)
-
-✉ Correspondence: Bo Li [bli\@uow.edu.au](mailto:bli@uow.edu.au)
-
-✉ Correspondence: Davide Delpiano [dlpdvd\@unife.it](mailto:dlpdvd@unife.it)
-
-### Online access:
-
-The files at the URL above will generate the results as found in the publication. The files hosted at <https://github.com/PeiyuanXiao/Longtan_raw_data> are the development versions and may have changed since the paper was published.
-
-### Maintainer of this repository:
-
-Pei-yuan Xiao [xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)
-
-Ben Marwick [bmarwick\@uw.edu](mailto:bmarwick@uw.edu)
-
-### Abstract:
-
-The Late Pleistocene of Eurasia is key for understanding interactions between early modern humans and different types of archaic human groups. During this period, lithic technology shows more diversity and complexity, likely indicating flexible adaptative strategies. However, cultural variability as expressed by technological types remains vague in large parts of eastern Eurasia, like in China. Here we report a complete Quina technological system identified from the study of the Longtan site in Southwest China. This site has been securely dated to ca. 60–50 thousand years ago (ka), with compelling evidence of core exploitation, production of large and thick flakes, shaping and maintenance of scrapers exhibiting the whole Quina concept, typical of contemporary European Middle Paleolithic technologies developed by Neanderthal groups adapted to climatic oscillations during Marine Isotope Stage (MIS) 4 and early MIS 3. The finding of a Quina lithic assemblage in China not only demonstrates the existence of a Middle Paleolithic technology in the region, but also shows large-scale analogies with Neanderthal behaviors in western Europe. Longtan substantially extends the geographic distribution of this technical behavior in East Asia. Although its origin remains unclear, implications for Pleistocene hominin dispersal and adaptation to diverse ecological settings are considered. The Longtan lithic evidence also provides perspectives for understanding the cultural evolutionary situation before the large-scale arrivals of early modern humans in East Asia predating \~45 ka.
-
-### Keywords:
-
-Middle Paleolithic; fluvial terrace; early MIS 3; Late Pleistocene; hominins
-
-### R packages and their versions:
-
-Data processing & analyzing: `readxl (>= 1.4.3)`,`tidyverse (>= 2.0.0)`,`forcats (>= 1.0.0)`, other statistical testing methods use the corresponding functions in the R base package
-
-Plots creating: `tidyverse (>= 2.0.0)`,`ggpmisc (>= 0.5.6)`,`ggdist (>= 3.3.2)`,`cowplot (>= 1.1.3)`,`ggtext (>= 0.1.2)`,`plot3D (>= 1.4.1)`
->>>>>>> 53c5b2272eb7cc559ce8fa9e1f8fea73a1ce5c29
+-   **R Packages:** `tidyverse`, `readxl`, `ggpmisc`, `ggdist`, `cowplot`, `ggtext`, `plot3D`.
