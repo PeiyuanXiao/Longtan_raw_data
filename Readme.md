@@ -1,9 +1,3 @@
----
-title: "Readme"
-author: "PeiyuanXiao"
-date: "2024-09-14"
-output: github_markdown
----
 
 <samp>RESEARCH COMPENDIUM</samp>
 
