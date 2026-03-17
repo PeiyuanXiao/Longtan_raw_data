@@ -5,12 +5,12 @@ date: "2024-09-14"
 output: github_markdown
 ---
 
-<p align="center">
-  <br />
-  <samp>RESEARCH COMPENDIUM</samp>
-  <br />
-  <h1><b><i>Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia</i></b></h1>
-  <hr />
+<samp>RESEARCH COMPENDIUM</samp>
+
+<h1><b><i>Quina lithic technology indicates diverse late-Pleistocene human dynamics in East Asia</i></b></h1>
+
+<hr />
+
 </p>
 
 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
