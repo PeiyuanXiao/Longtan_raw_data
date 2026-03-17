@@ -21,8 +21,6 @@ This repository contains the data and code for our paper published in **PNAS**:
 
 **Qi-Jun Ruan**<sup>a,b†</sup>, **Hao Li**<sup>a,c†</sup>✉, \***Pei-Yuan Xiao**<sup>a,c</sup>[<img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID iD" width="16" height="16"/>](https://orcid.org/0009-0000-9733-5875)✉,**Bo Li**<sup>d</sup>✉, **Hélène Monod**<sup>e,f</sup>, **Alexandra Sumner**<sup>g</sup>, **Ke-Liang Zhao**<sup>h</sup>, **Jian-Hui Liu**<sup>b</sup>, **Zhen-Xiu Jia**<sup>a</sup>, **Chun-Xin Wang**<sup>i</sup>, **An-Chuan Fan**<sup>i</sup>, **Marie-Hélène Moncel**<sup>j</sup>, **Ben Marwick**<sup>k</sup>, **Marco Peresani**<sup>l,m</sup>, **You-Ping Wang**<sup>n,o</sup>, **Fa-Hu Chen**<sup>a,c</sup>, **Davide Delpiano**<sup>l</sup>✉
 
-**Affiliations:**
-
 -   <sup>a</sup> *State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESER), Institute of Tibetan Plateau Research, CAS, Beijing, China.*
 -   <sup>b</sup> *Yunnan Provincial Institute of Cultural Relics and Archaeology, Kunming, China.*
 -   <sup>c</sup> *University of Chinese Academy of Sciences, Beijing, China.*
@@ -38,7 +36,7 @@ This repository contains the data and code for our paper published in **PNAS**:
 -   <sup>m</sup> *CNR-Institute of Environmental Geology and Geoengineering, Milan, Italy.*
 -   <sup>n</sup> *School of Archaeology and Museology, Peking University, Beijing, China.*
 
-**✉ Corresponding Authors:** \* Hao Li ([lihao\@itpcas.ac.cn](mailto:lihao@itpcas.ac.cn)) \* Pei-yuan Xiao ([xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)) \* Bo Li ([bli\@uow.edu.au](mailto:bli@uow.edu.au)) \* Davide Delpiano ([dlpdvd\@unife.it](mailto:dlpdvd@unife.it)
+**✉ Corresponding Authors:** \* Hao Li ([lihao\@itpcas.ac.cn](mailto:lihao@itpcas.ac.cn)) \* Pei-yuan Xiao ([xiaopeiyuan\@itpcas.ac.cn](mailto:xiaopeiyuan@itpcas.ac.cn)) \* Bo Li ([bli\@uow.edu.au](mailto:bli@uow.edu.au)) \* Davide Delpiano ([dlpdvd\@unife.it](mailto:dlpdvd@unife.it))
 
 🔧 **Maintainers:** [Pei-yuan Xiao](mailto:xiaopeiyuan@itpcas.ac.cn) & [Ben Marwick](mailto:bmarwick@uw.edu)
 
