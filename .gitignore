@@ -5,12 +5,10 @@
 *.Rapp.history
 *-Ex.R
 
-# Generated figures (produced by LT_CODE_SI.R)
-3d_plot.png
-3d_plot_filtered_technological_types.png
-
-# Analysis outputs
-output/
+# Pipeline outputs (keep the folder, ignore its contents)
+analysis/output/*
+!analysis/output/.gitkeep
+Rplots.pdf
 
 # renv: keep renv.lock and settings, ignore the local package library
 renv/library/
