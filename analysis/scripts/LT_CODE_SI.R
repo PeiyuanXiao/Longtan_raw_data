@@ -8,21 +8,21 @@ library("cowplot")
 library("plot3D")
 
 # Import the raw data-----------------------------------------------------------
-qn_scraper <-  read_excel("Longtan_lithic_tools.xlsx", sheet = 1) %>%
+qn_scraper <-  read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 1) %>%
   mutate(Layer = as.character(Layer))
-odn_scraper <- read_excel("Longtan_lithic_tools.xlsx", sheet = 2) %>%
+odn_scraper <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 2) %>%
   mutate(Level = as.character(Level))
-notch_denti <- read_excel("Longtan_lithic_tools.xlsx", sheet = 3) %>%
+notch_denti <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 3) %>%
   mutate(Layer = as.character(Layer))
-mis_tool <- read_excel("Longtan_lithic_tools.xlsx", sheet = 4)
-techno_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 1)
-rsp_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 2)
-odn_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 3)
-incomp_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 4)
-core <- read_excel("Longtan_lithic_data_cores.xlsx")
-waste <- read_excel("Longtan_lithic_data_waste_products.xlsx") %>%
+mis_tool <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 4)
+techno_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 1)
+rsp_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 2)
+odn_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 3)
+incomp_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 4)
+core <- read_excel("analysis/data/raw_data/Longtan_lithic_data_cores.xlsx")
+waste <- read_excel("analysis/data/raw_data/Longtan_lithic_data_waste_products.xlsx") %>%
   mutate(Length = as.double(Length))
-coord <- read_excel("Longtan_lithic_data_coordinates.xlsx")
+coord <- read_excel("analysis/data/raw_data/Longtan_lithic_data_coordinates.xlsx")
 
 # Cores-------------------------------------------------------------------------
 
@@ -832,7 +832,7 @@ combined_plot <- plot_grid(
 
 # Sites to river distance-------------------------------------------------------
 
-Site_river_distance <- read_excel("Site_river_distance.xlsx", skip = 0) %>%
+Site_river_distance <- read_excel("analysis/data/raw_data/Site_river_distance.xlsx", skip = 0) %>%
   mutate(Site = factor(Site, levels = c("Tianhuadong",
                                         "Dazhuang",
                                         "Longtan", 
@@ -858,7 +858,7 @@ ggplot(Site_river_distance) +
 
 # Taphonomic graphs-------------------------------------------------------------
 
-Taphonomic <- read_excel("LT_taphonomic_information.xlsx", sheet = 1)
+Taphonomic <- read_excel("analysis/data/raw_data/LT_taphonomic_information.xlsx", sheet = 1)
 
 # Strike
 Taphonomic1 <- 
@@ -1019,7 +1019,7 @@ custom_order <- c(
   "Manuport", "Chunk & debris"
 )
 
-png("3d_plot.png", width = 3000, height = 3000, res = 250)
+png("analysis/output/3d_plot.png", width = 3000, height = 3000, res = 250)
 with(coord, 
      scatter3D(x = X, y = Y, z = Z,
                pch = 21, 
@@ -1070,7 +1070,7 @@ coord_filtered$color <- typology_colors_custom[coord_filtered$Typology]
 
 coord_filtered$pch <- shape_mapping[coord_filtered$Typology]
 
-png("3d_plot_filtered_technological_types.png", width = 3000, height = 3000, res = 250)
+png("analysis/output/3d_plot_filtered_technological_types.png", width = 3000, height = 3000, res = 250)
 
 with(coord_filtered, 
      scatter3D(x = X, y = Y, z = Z,

@@ -3,19 +3,19 @@ library("readxl")
 library("tidyverse")
 
 # Import the raw data-----------------------------------------------------------
-qn_scraper <-  read_excel("Longtan_lithic_tools.xlsx", sheet = 1) %>%
+qn_scraper <-  read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 1) %>%
   mutate(Layer = as.character(Layer))
-odn_scraper <- read_excel("Longtan_lithic_tools.xlsx", sheet = 2) %>%
+odn_scraper <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 2) %>%
   mutate(Level = as.character(Level))
-notch_denti <- read_excel("Longtan_lithic_tools.xlsx", sheet = 3) %>%
+notch_denti <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 3) %>%
   mutate(Layer = as.character(Layer))
-mis_tool <- read_excel("Longtan_lithic_tools.xlsx", sheet = 4)
-techno_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 1)
-rsp_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 2)
-odn_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 3)
-incomp_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 4)
-core <- read_excel("Longtan_lithic_data_cores.xlsx")
-waste <- read_excel("Longtan_lithic_data_waste_products.xlsx") %>%
+mis_tool <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 4)
+techno_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 1)
+rsp_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 2)
+odn_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 3)
+incomp_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 4)
+core <- read_excel("analysis/data/raw_data/Longtan_lithic_data_cores.xlsx")
+waste <- read_excel("analysis/data/raw_data/Longtan_lithic_data_waste_products.xlsx") %>%
   mutate(Length = as.double(Length))
 
 # Core attributes descriptive statistics----------------------------------------

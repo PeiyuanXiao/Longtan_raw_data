@@ -5,12 +5,12 @@ library("cowplot")
 library("ggdist")
 
 # Import the raw data-----------------------------------------------------------
-qn_scraper <-  read_excel("Longtan_lithic_tools.xlsx", sheet = 1)
-odn_scraper <- read_excel("Longtan_lithic_tools.xlsx", sheet = 2)
-notch_denti <- read_excel("Longtan_lithic_tools.xlsx", sheet = 3)
-techno_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 1)
-rsp_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 2)
-odn_flake <- read_excel("Longtan_lithic_data_flakes.xlsx", sheet = 3)
+qn_scraper <-  read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 1)
+odn_scraper <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 2)
+notch_denti <- read_excel("analysis/data/raw_data/Longtan_lithic_tools.xlsx", sheet = 3)
+techno_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 1)
+rsp_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 2)
+odn_flake <- read_excel("analysis/data/raw_data/Longtan_lithic_data_flakes.xlsx", sheet = 3)
 
 # Statistical tests in main text------------------------------------------------
 
