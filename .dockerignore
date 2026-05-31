@@ -1,0 +1,12 @@
+# Keep the build context small and reproducible
+.git
+.gitignore
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+output
+renv/library
+renv/staging
+*.png
+Rplots.pdf

@@ -1,0 +1,25 @@
+Package: LongtanQuina
+Title: Quina Lithic Technology Indicates Diverse Late-Pleistocene Human Dynamics in East Asia
+Version: 1.0.0
+Authors@R: c(
+    person("Qi-Jun", "Ruan", role = "aut"),
+    person("Hao", "Li", email = "lihao@itpcas.ac.cn", role = "aut"),
+    person("Pei-Yuan", "Xiao", email = "xiaopeiyuan@itpcas.ac.cn",
+           role = c("aut", "cre"), comment = c(ORCID = "0009-0000-9733-5875")),
+    person("Bo", "Li", email = "bli@uow.edu.au", role = "aut"),
+    person("Ben", "Marwick", email = "bmarwick@uw.edu", role = "aut"),
+    person("Davide", "Delpiano", email = "dlpdvd@unife.it", role = "aut"))
+Description: Research compendium (raw data and R code) reproducing the analyses
+    and figures in Ruan et al. (2025) PNAS 122(14):e2418029122, which reports a
+    complete Quina lithic technological system at the Longtan site, Southwest
+    China, dated to ca. 60-50 ka.
+License: CC BY 4.0
+Encoding: UTF-8
+Imports:
+    readxl,
+    tidyverse,
+    cowplot,
+    ggdist,
+    ggpmisc,
+    ggtext,
+    plot3D

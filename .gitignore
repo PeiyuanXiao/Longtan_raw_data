@@ -4,3 +4,22 @@
 .Rproj.user/
 *.Rapp.history
 *-Ex.R
+
+# Generated figures (produced by LT_CODE_SI.R)
+3d_plot.png
+3d_plot_filtered_technological_types.png
+
+# Analysis outputs
+output/
+
+# renv: keep renv.lock and settings, ignore the local package library
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+renv/sandbox/
+renv/python/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
