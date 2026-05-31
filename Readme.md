@@ -99,7 +99,7 @@ The files hosted at <https://github.com/PeiyuanXiao/Longtan_raw_data> are the de
     -   `source("analysis/scripts/LT_CODE_SI.R")` — supplementary analyses and figures.
     -   `source("analysis/scripts/LT_CODE_DS.R")` — supplementary descriptive-statistics tables.
 
-#### Option B — Docker (guaranteed-clean environment)
+#### Option B — Docker
 
 The [`Dockerfile`](Dockerfile) builds R 4.5.2 and restores the exact package
 versions from `renv.lock`, independent of your local setup.
@@ -148,10 +148,3 @@ To capture your own session for the record, run `sessionInfo()` after sourcing t
 ### 📄 License
 
 Code and data in this repository are released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license — see the [`LICENSE`](LICENSE) file. You are free to share and adapt the material for any purpose, provided you give appropriate credit by citing the paper above.
-
-------------------------------------------------------------------------
-
-### 🐛 Issues
-
-Found a problem reproducing the analysis? Please open an issue at
-<https://github.com/PeiyuanXiao/Longtan_raw_data/issues> or contact the maintainers.
