@@ -152,7 +152,7 @@ TH_TOOL_clean <- TH_TOOL %>%
 colors <- c("#EE7E77", "#68A7BE")
 
 plot_thick <- 
-  ggplot(TH_TOOL_clean, fill = Typology) +
+  ggplot(TH_TOOL_clean) +
   aes(x = reorder(Typology, -Thickness), 
       y = Thickness) +
   stat_halfeye(mapping = aes(fill = Typology), 
@@ -199,7 +199,6 @@ colors <- c("#68A7BE", "#EE7E77")
 
 plot_edge_angle <- 
   ggplot(TOTAL_EA, 
-         fill = Typology, 
          aes(x = Typology, y = ave)) +
   stat_halfeye(mapping = aes(fill = Typology), 
                alpha = 1, 
@@ -251,7 +250,6 @@ RI_QS_ODN <- RI_QS_ODN %>%
 
 plot_giur <- 
   ggplot(RI_QS_ODN, 
-         fill = Typology, 
          aes(x = Typology, y = Ave_GIUR)) +
   stat_halfeye(mapping = aes(fill = Typology),
                alpha = 1, 
@@ -306,7 +304,6 @@ combined_edge_angle_clean <- bind_rows(
 
 plot_EA_EPA <- 
   ggplot(combined_edge_angle_clean, 
-         fill = Typology, 
          aes(x = Typology, y = ave)) +
   stat_halfeye(mapping = aes(fill = Typology), 
                alpha = 1, adjust = 0.5, 
